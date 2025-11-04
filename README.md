@@ -28,12 +28,11 @@ python .\main_fat_step2_weight_test.py
 
 ## Visual comparison
 ![results](https://github.com/yaoxudong241/UEO/blob/main/image/results.png)
-
-Qualitative evaluation results for different SISR methods on AID dataset at a scale of 4. (a), (b) and (c) correspond to the names of images in the dataset. Our results restore sharper and more accurate boundaries, which are closer to the ground truth.
+The qualitative evaluation results of different methods on the AID dataset with a scale factor of 4. The scene category and image name are annotated in the titles of subfigures (a)–(c), and these three images correspond to the SR results are generated using the HAT, MEN, and MSCT models, respectively. In each subfigure, the second row presents a magnified view of the red-boxed region from the first row.
 
 ## Results
-The super-resolution result images for AID, UCMerced, and SEN2VENµS can be obtained from [Google Drive](https://drive.google.com/drive/folders/17Vyd9NSD6gFQk5OjHMEgd3dhlvY8a3V4?usp=drive_link).
+Taking the FAT network as an example, our experimental results and pretrained weights are available at [Google Drive](https://drive.google.com/drive/folders/1e431aeaxCxif6ggIX2Ebe9DGkTJPFNz7?usp=drive_link).
 
 ## Acknowledgements
-This code is built on [ESRT (Torch)](https://github.com/luissen/ESRT). We thank the authors for sharing their codes of ESRT PyTorch version.
+This code is built on [Uncertainty-Driven Loss for Single Image Super-Resolution (Torch)](https://github.com/QianNing0/UDL). We thank the authors for sharing their codes of ESRT PyTorch version.
 
