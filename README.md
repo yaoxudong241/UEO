@@ -14,12 +14,15 @@ Overall architecture of the proposed uncertainty-aware SR framework. (a) An unce
 - prepare
 
 ```sh
-python train.py --root /path/to/train/ --rootval /path/to/val/
+python .\main_fat_step1_weight.py
+```
+```sh
+python .\main_fat_step2_weight.py
 ```
 ## Test
 
 ```sh
-python test.py --test_hr_folder /path/to/hrimg/ --test_lr_folder /path/to/lrimg/ --output_folder /path/to/srimg/ --checkpoint /path/to/model/
+python .\main_fat_step2_weight_test.py
 ```
 
 
