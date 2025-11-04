@@ -6,7 +6,7 @@
 - pytorch=2.1.0
 
 ## Model
-![Structure of UEO](https://github.com/user-attachments/assets/579b3bad-c284-4b85-b457-03ac66185622)
+![Structure of UEO](https://github.com/yaoxudong241/UEO/blob/main/image/method_00.png)
 Overall architecture of the proposed uncertainty-aware SR framework. (a) An uncertainty estimation branch is integrated into a conventional SR network, enhanced with a sparse sampling module to promote sparsity in uncertainty representation. The output SR image $I_{SR}$ and the corresponding uncertainty map $U$ are jointly used to compute the uncertainty-aware loss function $L_U$. (b) A VGG-based perceptual similarity constraint $L_D$ between SR and HR images is introduced to regularize and stabilize the uncertainty learning process. $L_U$ and $L_D$ jointly constitute the overall optimization objective of the proposed framework.
 
 ## Train
