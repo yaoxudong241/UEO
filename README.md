@@ -11,8 +11,7 @@ Overall architecture of the proposed uncertainty-aware SR framework. (a) An unce
 
 ## Train
 - dataset:AID
-- prepare
-
+- Using the FAT network as an example, the following commands can be executed to perform training and testing.
 ```sh
 python .\main_fat_step1_weight.py
 ```
