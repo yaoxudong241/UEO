@@ -27,9 +27,8 @@ python .\main_fat_step2_weight_test.py
 
 
 ## Visual comparison
-![playground](https://github.com/user-attachments/assets/68204de0-f7db-4919-95a9-c10047b5c5ce)
-![road](https://github.com/user-attachments/assets/c1183624-16cd-4eda-aeb3-a711048c93b9)
-![ship](https://github.com/user-attachments/assets/1d434a3a-3998-4074-8312-29736034bcb7)
+![results](https://github.com/yaoxudong241/UEO/blob/main/image/results.png)
+
 Qualitative evaluation results for different SISR methods on AID dataset at a scale of 4. (a), (b) and (c) correspond to the names of images in the dataset. Our results restore sharper and more accurate boundaries, which are closer to the ground truth.
 
 ## Results
